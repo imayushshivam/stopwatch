@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+#stopwatch-area {
+  background-color: rgba(62, 57, 57, 0.734);
+  color: #fff;
+  margin: 15%;
+  min-width: 700px;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+#watch-area {
+  color: rgb(55, 1, 1);
+  justify-content: center;
+  align-items: center;
+}
