@@ -8,26 +8,27 @@
   </head>
   <body>
     <div class="container">
-      <div id="stopwatch-area">
-        <h2>stopwatch</h2>
-
+      <div id="stopwatch-area" class="pulse">
+        <h2>Stopwatch</h2>
+        <!-- created a seprate area for timmer. -->
         <div id="watch-area">
           <span id="watch">
-            <span class="timer" id="hour">0</span> h :
-            <span class="timer" id="minute">0</span> m :
-            <span class="timer" id="second">0</span> s .
-            <span class="timer" id="milisec">0</span>
+            <span class="timer" id="hour">00</span> h :
+            <span class="timer" id="minute">00</span> m :
+            <span class="timer" id="second">00</span> s .
+            <span class="timer" id="milisec">000</span>
             ms
           </span>
         </div>
-
+        <!-- adding button to control the clock -->
         <div class="buttons">
-          <button id="start">start</button>
-          <button id="stop">stop</button>
-          <button id="reset">reset</button>
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+          <button id="reset">Reset</button>
         </div>
       </div>
     </div>
   </body>
+
   <script src="script.js"></script>
 </html>
